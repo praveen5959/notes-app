@@ -1,0 +1,32 @@
+.palatte {
+  background-color: white;
+  padding: 18px;
+  border-radius: 5px;
+  height: 75vh;
+}
+.palatte ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.tooltip {
+  font-size: 15px !important;
+  font-weight: bold;
+  color: rgb(61, 61, 61) !important;
+}
+@media (max-width: 800px) {
+  .palatte {
+    height: 8vh;
+    padding: 0px 10px;
+    margin-bottom: 1rem;
+  }
+  .palatte ul {
+    flex-direction: row;
+  }
+  #toolTip1 {
+    display: none;
+  }
+}
