@@ -15,7 +15,7 @@ const Header = () => {
             to="/"
           >
             <li>
-              <h3>All Notes</h3>
+              <h3>Current Notes</h3>
             </li>
           </NavLink>
           <NavLink
